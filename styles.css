@@ -77,7 +77,6 @@ p {
 
 .div-img-cg {
     display: flex;
-    width: 100%;
     justify-content: center;
     margin: 0px auto;
     cursor: default !important;
@@ -92,10 +91,10 @@ p {
     width: 15%;
     filter: drop-shadow(-8px 8px 1px black);
     -webkit-transition: 0.5s ease;
-    display: block;
     max-width: 100%;
     height: auto;
     cursor: pointer !important;
+    padding: 2%;
 }
 
 .div-img-cg img:hover {
@@ -128,7 +127,7 @@ p {
     animation-duration: 0.6s;
     border-radius: 50%;
     filter: blur(2px);
-    margin-left: 10%;
+    margin: 2% 15%;
     cursor: pointer;
 }
 
@@ -140,6 +139,17 @@ p {
     filter: blur(0px);
 }
 
+.div-content {
+    text-align: center;
+}
+
 .div-content-about-us a {
     cursor: default;
+}
+
+.stl-div-txt,
+.div-text-cg {
+    max-width: 40%;
+    text-align: justify;
+    margin: 0 auto;
 }

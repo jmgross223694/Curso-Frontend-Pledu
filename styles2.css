@@ -4,11 +4,6 @@ body {
     padding: 2%;
 }
 
-hr {
-    max-width: 40%;
-    margin: 1% 0;
-}
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -47,6 +42,10 @@ hr {
     background-color: #575757;
 }
 
+.div-text-interview {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -77,5 +76,5 @@ p {
     font-size: 1rem;
     color: #666;
     margin: 0.5rem 0;
-    text-align: justify;
+    text-align: center;
 }
