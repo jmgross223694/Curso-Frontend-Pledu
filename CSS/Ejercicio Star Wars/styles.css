@@ -1,0 +1,57 @@
+body {
+    background-image: url('https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png');
+    padding: 2%;
+}
+
+.los-malos {
+    background-color: red;
+}
+
+.los-rebeldes {
+    background-color: blue;
+}
+
+#darth_vader {
+    font-size: 200%;
+}
+
+#luke_skywalker {
+    font-style: italic;
+}
+
+.soldados {
+    border: 1px solid black;
+    letter-spacing: 150%;
+}
+
+.apoyo {
+    text-align: center;
+}
+
+.naves {
+    text-transform: uppercase;
+}
+
+.droides {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    filter: drop-shadow(-1px 2px 10px #fff);
+    margin: 2%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
